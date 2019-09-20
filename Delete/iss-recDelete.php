@@ -8,7 +8,7 @@ $IssueNo= $_POST['iss_no'];
 $MembershipNo = $_POST['mem_no'];
 $BookNo = $_POST['book_no'];
 
-$s= " INSERT INTO issu_rec (`iss_no`, `date`,`mem_no`,`book_no`) VALUES ('$IssueNo',CURRENT_TIMESTAMP,'$MembershipNo','$BookNo')" ;
+$s= " INSERT INTO iss_rec (`iss_no`, `date`,`mem_no`,`book_no`) VALUES ('$IssueNo',CURRENT_TIMESTAMP,'$MembershipNo','$BookNo')" ;
 
 $result=mysqli_query($con,$s);
 $Error=mysqli_error($con);

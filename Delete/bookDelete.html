@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Insertion</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+    <ul>
+        <li>
+            <a href="../html/home.html">Home</a>
+        </li>
+    </ul>
+    
+        
+
+    <form action="bookInsertion.php" method="post">
+        <div class="textbox">
+                <input type="text" placeholder="Book No" id="book_no" name="book_no" class="form-control" required>
+
+        </div>
+        <div class="textbox">
+                <input type="text" placeholder="Book Name" id="book_name" name="book_name" class="form-control" required>
+
+        </div>
+        <div class="textbox">
+                <input type="text" placeholder="Author" id="author" name="author" class="form-control" required>
+
+        </div>
+        <button type="submit" class="btn btn-success">Insert</button>
+
+    </form>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+</body>
+</html>

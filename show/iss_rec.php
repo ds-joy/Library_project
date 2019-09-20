@@ -2,7 +2,9 @@
 session_start();
 $con=mysqli_connect('localhost','root','');
 mysqli_select_db($con,'library');
-$s= "select * from iss_rec" ;
+
+$s= "select * from issu_rec" ;
+
 $result=mysqli_query($con,$s);
 ?>
 <!DOCTYPE html>
