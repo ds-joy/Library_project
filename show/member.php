@@ -24,7 +24,7 @@ $result=mysqli_query($con,$s);
             <tr>
             <tr>
                 <th>Member No</th>
-                <th>Member Name</th>
+                <th>Student No</th>
             </tr>
          
             <?php
